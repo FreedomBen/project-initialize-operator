@@ -35,7 +35,7 @@ $ oc apply -f deploy/crds/redhatcop.redhat.io_projectinitializes_crd.yaml
 $ oc apply -f deploy/crds/redhatcop.redhat.io_projectinitializes_crd_3x.yaml
 ```
 
-### Add ProjectInitialize CRD
+### Add ProjectInitializeQuota CRD
 #### 4.X OCP
 ```
 $ oc apply -f deploy/crds/redhatcop.redhat.io_projectinitializequota_crd.yaml
@@ -90,7 +90,7 @@ spec:
 
 
 ## Example Workflow
-The Project Initialize Operator will need to be running in the project-operator namespace before running the following example workflow.
+The Project Initialize Operator will need to be running in the `project-operator` namespace before running the following example workflow.
 
 
 ### Apply T-Shirt Size
